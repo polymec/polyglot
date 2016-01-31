@@ -126,7 +126,6 @@ int main(int argc, char** argv)
 
     // Set up an interpreter for parsing the input file.
     interp = interpreter_new(NULL);
-    interpreter_register_geometry_functions(interp);
     interpreter_register_polyglot_functions(interp);
     interpreter_register_mesher_functions(interp);
 
@@ -147,7 +146,6 @@ int main(int argc, char** argv)
     if (input != NULL)
     {
       interp = interpreter_new(NULL);
-      interpreter_register_geometry_functions(interp);
       interpreter_register_mesher_functions(interp);
     }
   }
