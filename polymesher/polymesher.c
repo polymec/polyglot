@@ -8,8 +8,7 @@
 #include <strings.h>
 #include "core/polymec.h"
 #include "core/options.h"
-#include "core/interpreter.h"
-#include "geometry/interpreter_register_geometry_functions.h"
+#include "model/interpreter.h"
 #include "polyglot/interpreter_register_polyglot_functions.h"
 
 static void mesher_usage(FILE* stream)
