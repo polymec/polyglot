@@ -10,7 +10,7 @@
 
 #include <string.h>
 #include "core/polymec.h"
-#include "core/interpreter.h"
+#include "model/interpreter.h"
 
 // Lua stuff.
 #include "lua.h"
